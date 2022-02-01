@@ -8,6 +8,14 @@
   --color1: #365f91;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@font-face {
+	font-family: "Título1";
+	src: url("fonts/berlin-sans-fb-3.ttf") format("truetype");
+}
+
 aside {
   background-color: var(--color1);
   color: white;
@@ -29,13 +37,43 @@ main {
 }
 
 h1, h2 {
+font-family: Título1, Verdana, sans-serif;
+  font-weight: bold;
   color: var(--color1);
+}
+
+h1 {
+  font-size: 3em;
+}
+
+hr {
+  height: 2px;
+  background-color: var(--color1);
+  margin: 1em 0;
+}
+
+h2 {
+  font-size: 1.4em;
+  text-decoration: underline;
+  margin: 2.5em 0 0.8em 0;
 }
 
 h3 {
   font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 0.2em;
 }
 
 .sub {
   color: var(--color0);
+  margin-bottom: 1.5em;
+}
+
+main > ul > li {
+  margin-bottom: 0.8em;
+  margin-left: 1em;
+}
+
+#cargo2 {
+  margin-top: 2.5em;
 }
