@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color0: #808080;
+  --color1: #365f91;
+}
+
+aside {
+  background-color: var(--color1);
+  color: white;
+  max-width: 200px;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  max-width: 800px;
+  padding: 1em;
+  text-align: justify;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+h1, h2 {
+  color: var(--color1);
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.sub {
+  color: var(--color0);
+}
