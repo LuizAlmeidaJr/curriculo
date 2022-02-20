@@ -16,10 +16,15 @@
 	src: url("fonts/berlin-sans-fb-3.ttf") format("truetype");
 }
 
+body {
+  display: flex;
+}
+
 aside {
   background-color: var(--color1);
   color: white;
-  max-width: 300px;
+  min-width: 310px;
+  max-width: 350px;
   display: block;
 }
 
@@ -92,19 +97,46 @@ aside > img {
 
 aside > p {
   font-family: Título1, sans-serif;
-  text-align: justify;
+  font-size: 1.1em;
   padding-left: 1em;
   line-height: 1.2em;
 }
 
 h4 {
-  font: normal bold 1em Título1, sans-serif;
+  font: normal bold 1.2em Título1, sans-serif;
   margin: 1em;
   text-align: center;
 }
 
+#contacts > p {
+  font-family: Verdana, Helvetica, sans-serif;
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+.contactIcons {
+  display: block;
+  height: 1.5em;
+}
+
+#email {
+  background-color: white;
+}
+
+#github {
+  background-color: white;
+  border-radius: 50%;
+}
+
 aside > ul > li {
   font-family: Título1, Helvetica, sans-serif;
+  font-size: 1.1em;
   padding-left: 1em;
   line-height: 1.2em;
+}
+
+#tech > img {
+  display: block;
+  height: 4em;
+  margin: 1.5em auto;
 }
