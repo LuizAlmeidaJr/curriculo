@@ -90,9 +90,8 @@ main > ul > li {
 
 aside > img {
   display: block;
-  margin: auto;
+  margin: 1em auto;
   border: 0.5em solid white;
-  margin-bottom: 1em;
 }
 
 aside > p {
@@ -131,12 +130,31 @@ h4 {
 aside > ul > li {
   font-family: Título1, Helvetica, sans-serif;
   font-size: 1.1em;
-  padding-left: 1em;
+  padding-left: 0.2em;
   line-height: 1.2em;
+  margin-left: 2em;
+}
+
+#tech {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
 }
 
 #tech > img {
   display: block;
   height: 4em;
   margin: 1.5em auto;
+}
+
+.knowledge {
+  font: bold normal 1em Título1, Helvetica, sans-serif;
+  text-align: center;
+  justify-self: start;
+}
+
+.circles > span {
+  font-size: 1.2em;
+  margin: 0.2em;
 }
