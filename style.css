@@ -33,8 +33,82 @@ a {
   color: white;
 }
 
+aside > img {
+  display: block;
+  margin: 3em auto;
+  border: 0.5em solid white;
+}
+
+aside > p {
+  font-family: Título1, sans-serif;
+  font-size: 1.3em;
+  padding: 0 1em;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+h4 {
+  font: normal bold 1.2em Título1, sans-serif;
+  margin: 3em 0 2em 0;
+  text-align: center;
+}
+
+#contacts > a {
+  display: flex;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+.contactIcons {
+  display: block;
+  height: 1.5em;
+  margin-right: 1em;
+}
+
+#email {
+  margin-right: 0.6em;
+}
+
+#github {
+  background-color: white;
+  border-radius: 50%;
+}
+
+aside > ul > li {
+  font-family: Título1, Helvetica, sans-serif;
+  font-size: 1.3em;
+  padding-left: 0.2em;
+  line-height: 1.2em;
+  margin-left: 2em;
+}
+
+#tech {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+}
+
+#tech > img {
+  display: block;
+  height: 4em;
+  margin: 1.5em auto;
+}
+
+.knowledge {
+  font: bold normal 1em Título1, Helvetica, sans-serif;
+  text-align: center;
+  justify-self: start;
+}
+
+.circles > span {
+  font-size: 1.2em;
+  margin: 0.2em;
+}
+
 main {
-  max-width: 800px;
   padding: 1em;
   text-align: justify;
   font-family: Verdana, Helvetica, sans-serif;
@@ -86,75 +160,4 @@ main > ul > li {
 
 #cargo2 {
   margin-top: 2.5em;
-}
-
-aside > img {
-  display: block;
-  margin: 1em auto;
-  border: 0.5em solid white;
-}
-
-aside > p {
-  font-family: Título1, sans-serif;
-  font-size: 1.1em;
-  padding-left: 1em;
-  line-height: 1.2em;
-}
-
-h4 {
-  font: normal bold 1.2em Título1, sans-serif;
-  margin: 1em;
-  text-align: center;
-}
-
-#contacts > p {
-  font-family: Verdana, Helvetica, sans-serif;
-  padding-left: 1em;
-  padding-bottom: 1em;
-}
-
-.contactIcons {
-  display: block;
-  height: 1.5em;
-}
-
-#email {
-  background-color: white;
-}
-
-#github {
-  background-color: white;
-  border-radius: 50%;
-}
-
-aside > ul > li {
-  font-family: Título1, Helvetica, sans-serif;
-  font-size: 1.1em;
-  padding-left: 0.2em;
-  line-height: 1.2em;
-  margin-left: 2em;
-}
-
-#tech {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-
-}
-
-#tech > img {
-  display: block;
-  height: 4em;
-  margin: 1.5em auto;
-}
-
-.knowledge {
-  font: bold normal 1em Título1, Helvetica, sans-serif;
-  text-align: center;
-  justify-self: start;
-}
-
-.circles > span {
-  font-size: 1.2em;
-  margin: 0.2em;
 }
