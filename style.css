@@ -9,8 +9,19 @@
 }
 
 @font-face {
-	font-family: "Título1";
-	src: url("fonts/berlin-sans-fb-3.ttf") format("truetype");
+  font-family: 'Título1';
+  src: url('fonts/berlin-sans-fb-3.ttf') format('truetype');
+}
+
+@media (max-width: 768px) {
+  #container {
+    display: flex;
+    flex-direction: column;
+  }
+  #leftSide {
+    max-width: 75%;
+    align-self: center;
+  }
 }
 
 body {
@@ -53,8 +64,7 @@ h4 {
   display: flex;
   font-family: Verdana, Helvetica, sans-serif;
   font-weight: bold;
-  padding-left: 1em;
-  padding-bottom: 1em;  
+  padding: 0 1em 1em 1em;
 }
 
 .contactIcons {
@@ -116,8 +126,9 @@ main {
   font-size: 1em;
 }
 
-h1, h2 {
-font-family: Título1, Verdana, sans-serif;
+h1,
+h2 {
+  font-family: Título1, Verdana, sans-serif;
   font-weight: bold;
   color: var(--color1);
 }
@@ -147,6 +158,11 @@ h3 {
 .sub1 {
   color: var(--color0);
   margin-bottom: 1.5em;
+}
+
+.sub1 > a {
+  color: var(--color0);
+  text-decoration: underline;
 }
 
 .sub2 {
