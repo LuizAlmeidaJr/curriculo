@@ -8,23 +8,19 @@
   --color1: #365f91;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 @font-face {
 	font-family: "Título1";
 	src: url("fonts/berlin-sans-fb-3.ttf") format("truetype");
 }
 
 body {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
 }
 
 aside {
   background-color: var(--color1);
   color: white;
-  min-width: 310px;
-  max-width: 350px;
   display: block;
 }
 
@@ -58,7 +54,7 @@ h4 {
   font-family: Verdana, Helvetica, sans-serif;
   font-weight: bold;
   padding-left: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 1em;  
 }
 
 .contactIcons {
@@ -76,31 +72,35 @@ h4 {
   border-radius: 50%;
 }
 
+aside > ul {
+  display: flex;
+  flex-direction: column;
+}
+
 aside > ul > li {
   font-family: Título1, Helvetica, sans-serif;
   font-size: 1.3em;
-  padding-left: 0.2em;
   line-height: 1.2em;
-  margin-left: 2em;
+  margin-left: 25%;
+  margin-right: 20%;
 }
 
 #tech {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-
 }
 
 #tech > img {
-  display: block;
+  justify-self: right;
   height: 4em;
-  margin: 1.5em auto;
+  margin: 1.5em;
 }
 
 .knowledge {
   font: bold normal 1em Título1, Helvetica, sans-serif;
   text-align: center;
-  justify-self: start;
+  justify-self: left;
 }
 
 .circles > span {
@@ -109,6 +109,7 @@ aside > ul > li {
 }
 
 main {
+  max-width: 1fr;
   padding: 1em;
   text-align: justify;
   font-family: Verdana, Helvetica, sans-serif;
