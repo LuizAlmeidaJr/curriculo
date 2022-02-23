@@ -22,6 +22,12 @@
     max-width: 75%;
     align-self: center;
   }
+  #tech {
+    margin-bottom: 3em;
+  }
+  #name {
+    margin-top: 1em;
+  }
 }
 
 body {
