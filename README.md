@@ -12,11 +12,13 @@ Mas nos últimos meses descobri o universo da tecnologia e tenho dedicado grande
 
 Iniciei meu aprendizado com as tecnologias do **Front-End** e também a linguagem **Python**.
 
+![Technologys](images/README/techs.png)
+
 Ao longo dos últimos meses já conclui diversos cursos livres e obtive a certificação **Azure AI Fundamentals**.
 
 ![Luiz Azure AI Fundamentals Certified](images/README/azureAIFundamentals.png)
 
 Convido você a visitar meu currículo digital clicando [aqui](https://luizalmeidajr.github.io/curriculo/) ou entrar em contato comigo.
 
-![LinkedIn Icon]() [LinkedIn](https://www.linkedin.com/in/luiz-almeida-jr-643789224/)
-![GitHub Icon]() [GitHub](https://github.com/LuizAlmeidaJr)
+![LinkedIn Icon](images/README/linkedinIcon.png) [LinkedIn](https://www.linkedin.com/in/luiz-almeida-jr-643789224/)
+![GitHub Icon](images/README/githubIcon.png) [GitHub](https://github.com/LuizAlmeidaJr)
