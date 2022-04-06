@@ -1,6 +1,6 @@
 # Currículo online de Luiz Castilho de Almeida Junior
 
-<img src="images/README/profile.png" alt="Luiz Almeida Jr profile photo" align="right" width=40%>
+<img src="images/README/profile.png" alt="Luiz Almeida Jr profile photo" align="right" width=30%>
 
 Olá!
 
