@@ -149,6 +149,13 @@ hr {
   margin: 1em 0;
 }
 
+#presentation {
+  font-size: 1.1em;
+  font-style: italic;
+  color: var(--color0);
+  margin: 2.5em 0 0.8em 0;
+}
+
 h2 {
   font-size: 1.4em;
   text-decoration: underline;
@@ -181,6 +188,6 @@ main > ul > li {
   margin-left: 1em;
 }
 
-#cargo2 {
+.cargo2 {
   margin-top: 2.5em;
 }
